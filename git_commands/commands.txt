@@ -1,0 +1,41 @@
+Steps To get started:
+	- Download Git
+	- Open a folder in VS Code
+	- Open git bash terminal
+	- Check git version by using **"git --version"**
+	- Create a folder by using **"mkdir [Name]"**
+	- Check list of files/folders in a folder by using **"ls/ls -a"**
+	- To get out of/in to a folder use **"cd ../cd folder name"**
+	- Initialize git by using **"git init"**
+	- Create a file nu using **"touch file.extension"**
+	- To stage/track a file or folder use **"git add file_name/git add ."**
+	- To check the status of tracked file use **"git status"**
+	- To unstage/untrack a file/folder use **"git reset file/folder"**
+	- To tell the git who you are user **"git config --global user.name 'ABC'"**
+	- To tell the git about your email use **"git config --global user.email 'abc@gmail.com'"**
+	- To commit the changes use **"git commit -m 'Message'"**
+	- To check the history use **"git log"**
+	- Delete  a file by using **"rm -rf 'File Name'"**
+	- To uncommit changes use **"git reset log_number"** this will delete commit above it.
+	- To create and edit a file use **"vi file.name"**, Insert **"i"** ,Save ":w" ,Exit **":q"**
+	-  To stash a file use **"git stash"** after get them stagged
+	- To get the stash repo use **"git stash pop"**
+	- To delete stash repo use **"git stash clear"**
+	- Create GitHub account
+	- Create a new repository
+	- Copy the link/URL
+	- Use **"git remote add origin link/URL"** in terminal to add the code location.
+	- To push code use **"git push origin master"**
+	- To work parallelly create a branch by using **"git branch branchName"** 
+	- To work on the new branch use **"git checkout branchName"**,Use the same command to switch to other branch.
+	- To delete a branch use **"git branch -d localBranchName"**
+	- To merge the branch with main file,1st switch to main branch then use **"git merge branchName"**
+	- To change the name of  file use **"git mv old new"**
+	- To change the name of a branch ,got to the branch and use **"git branch -m newName"**
+	- To work in an open source project **fork** the upstream repo from GitHub profile of the creator
+	- To clone a repo copy the URL and use **"git clone link/URL"**
+	- You can push multiple times from a branch, you can reset commits and then push it again by using **"git push origin branchName -f"**
+	- After pushing the code for to your remote repo for contribution ,you need to create a pull request from GitHub, then the creator of the project will merge the pull request.
+	- To fetch all the changes of upstream to your origin use **"git fetch --all -prune"** then **"git reset --hard upstream/main"**
+	- Or use a single command **"git pull upstream main"**
+	- To pull from your own repo use **"git pull origin master"**

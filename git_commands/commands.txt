@@ -25,7 +25,7 @@ Steps To get started:
 	- Create a new repository
 	- Copy the link/URL
 	- Use **"git remote add origin link/URL"** in terminal to add the code location.
-	- To push code use **"git push origin master"**
+	- To push code use **"git push origin branchToPush"**
 	- To work parallelly create a branch by using **"git branch branchName"** 
 	- To work on the new branch use **"git checkout branchName"**,Use the same command to switch to other branch.
 	- To delete a branch use **"git branch -d localBranchName"**
